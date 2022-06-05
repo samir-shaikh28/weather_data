@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="last_updated">Last Updated at %s</string>
+    <string name="location">%s, %s, %s</string>
+    <string name="temp_celcius">%.1f \u2103</string>
+    <string name="max_temp_celcius">Max: %.1f \u2103</string>
+    <string name="min_temp_celcius">Min: %.1f \u2103</string>
+
+    <string name="temp_ferhenite">%.1f \u2109</string>
+    <string name="max_temp_ferhenite">Max: %.1f \u2109</string>
+    <string name="min_temp_ferhenite">Min: %.1f \u2109</string>
+    <string name="humidity">Humidity: %s</string>
+    <string name="next_24_hours">Upcoming Hours</string>
+    <string name="upcoming_days">Upcoming Days</string>
+    <string name="favourite">Favourite</string>
+    <string name="search">Search</string>
+</resources>
