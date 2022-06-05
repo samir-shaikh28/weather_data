@@ -10,6 +10,7 @@
     </data>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/hour_forecast"
         android:layout_width="match_parent"
         app:cardCornerRadius="6dp"
         android:layout_marginLeft="16dp"
@@ -18,6 +19,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
+            android:id="@+id/hour_forecast_cast"
             android:paddingBottom="12dp"
             android:background="@color/white"
             android:layout_height="match_parent">

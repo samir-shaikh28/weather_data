@@ -33,7 +33,7 @@ class HomeFragmentViewModel @Inject constructor(
 ) :
     ViewModel() {
 
-    private var _currentWeather = MutableLiveData<Result<CurrentWeather>>()
+    private var _currentWeather = SingleLiveEvent<Result<CurrentWeather>>()
     val currentWeather: LiveData<Result<CurrentWeather>>
         get() = _currentWeather
 

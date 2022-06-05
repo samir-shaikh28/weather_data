@@ -10,11 +10,13 @@
     </data>
 
     <com.google.android.material.card.MaterialCardView
+        android:id="@+id/hour_item_card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="6dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/hour_item_container"
             android:layout_width="100dp"
             android:background="@drawable/hour_bg"
             android:padding="6dp"

@@ -2,6 +2,7 @@ package com.example.weather.ui.fragments
 
 import android.location.Location
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuInflater
@@ -131,11 +132,9 @@ class HomeFragment : Fragment(), OnBookMarkClickListener {
                 is Success -> {
                     handleSuccessResponse(outcome.data)
                 }
-
                 is Error -> {
                     handleError("something went wrong")
                 }
-
                 is Failure -> {
                     handleError(outcome.throwable.localizedMessage)
                 }

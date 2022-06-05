@@ -53,7 +53,6 @@ class HoursViewHolder(private val hours: List<HourResponse>?,
                 scoreListAdapter.notifyDataSetChanged()
                 recyclerView.scrollToPosition(currentHour.toInt())
             }
-
         }
     }
 }

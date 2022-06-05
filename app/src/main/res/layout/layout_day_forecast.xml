@@ -12,6 +12,7 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         app:cardCornerRadius="6dp"
+        android:id="@+id/day_forecast_card"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
         android:layout_height="wrap_content">
@@ -19,6 +20,7 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:paddingBottom="12dp"
+            android:id="@+id/day_forecast_container"
             android:background="@color/white"
             android:layout_height="match_parent">
 
